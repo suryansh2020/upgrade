@@ -22,4 +22,4 @@ c)X will be a better choice for all inputs except possibly large inputs
 d)Y will be a better choice for small inputs
 
 Answer 2
-a
+c
