@@ -1,0 +1,38 @@
+Question 1
+Write a Python program to add two numbers using class and object.
+(Take both numbers as input from the user)
+
+Answer 1:
+class maths:
+
+    def __init__(self):
+        self.x = x
+        self.y = y
+    
+    def add(self,x,y):
+        print(x+y)
+        
+ob1 = maths()
+
+x= input("Enter value of x : ")
+y= input("Enter value of y : ")
+ob1.add(int(x),int(y))
+
+
+Question 2
+Define a function swap that should swap two values and print the swapped variables outside the
+swap function.
+
+Answer 2:
+
+def swap():
+    global x,y
+    c = x+y
+    x = c-x
+    y = c-x
+    
+x= int(input("Enter value of x : "))
+y= int(input("Enter value of y : "))
+print(f"Value of x ={x}, y= {y}")
+swap()
+print(f"Swapped value of x ={x}, y= {y}")
